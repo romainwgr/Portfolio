@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
     <!-- Font et img-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
         <link rel="stylesheet" href="portfolio.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -142,19 +143,59 @@
     <br><hr><br>
     <section id="contact">
         <div class="contact" >
-            <h1>Me contacter</h1>
-            <i class="fi fi-brands-linkedin">LinkedIn</i></p>
-            <i>mail</i>
-            <i>telephone</i>
+            <div class="alignement">
+                <div class="izquierda">
+                    <h1 >Me contacter</h1>
+                    <form action="https://formspree.io/f/mpzgblok" method="post">
+                        <div class="centrage">
+                            <div><input type="email" placeholder="Votre email..."></div>
+                            <div><input type="text" placeholder="Votre nom..." ></div>
+                        </div>
+                        <div class="acot">
+                            <textarea cols="58" rows="10" placeholder="Votre message ..."></textarea>
+                            
+                            <input type="button" value="Envoyer" class="envoyer">
+                        </div>
+                </div>
+                <div class="derecha">
+                    <h1>Informations sur moi</h1>
+                    <div class="logoo">
+                        <div class="mail">
+                            <i class="fa-solid fa-envelope fa-xl"></i>
+                            <p>romain.wgr9@gmail.com</p>
+                        </div>
+                        <div class="num">
+                            <i class="fa-solid fa-phone fa-xl"></i>
+                            <p>06 63 47 33 81</p>
+                        </div>
+                        <div class="linkdin">
+                            <a href="www.linkedin.com/in/romain-wagner1">
+                            <i class="fa-brands fa-linkedin fa-xl"></i></a>
+                            <a href="www.linkedin.com/in/romain-wagner1">
+                            <p>Mon LinkedIn</p></a>
+                        </div>
+                        <div class="github">
+                            <a href="https://github.com/romainwgr">
+                            <i class="fa-brands fa-github fa-xl"></i></a>
+                            <a href="https://github.com/romainwgr">
+                            <p>Mon Github</p></a>
+                        </div>
+                        <div class="cvv">
+                            <a href="https://cvdesignr.com/p/652531ebc78bf?hl=fr_FR">
+                            <i class="fa-solid fa-file fa-xl"></i></a>
+                            <a href="https://cvdesignr.com/p/652531ebc78bf?hl=fr_FR">
+                            <p>Mon CV</p></a>
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+            
+            
+           
         </div>
     </section>
     </main>
-    <footer><p>
-        Tous droit réservés
-        <i class="fi fi-brands-linkedin">LinkedIn</i></p>
-        <i>mail</i>
-        <i>telephone</i>
-    </footer>
 </div>
     <script src="portfolio.js"></script>
 </body>

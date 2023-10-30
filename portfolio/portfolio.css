@@ -287,3 +287,43 @@ p{
   font-size: 50px;
 
 }
+.contact{
+
+}
+input, textarea{
+  border: .1px solid var(--title-color);
+  border-radius: 5px;
+  font-family: var(--body-font);
+  font-size: var(--font-medium);
+  color: var(--title-color);
+  background-color: white;
+  padding:5px;
+  margin:2px;
+}
+
+.alignement{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+h1{
+  margin-bottom:5px;
+}
+
+.centrage{
+  display: flex;
+  align-items: center;
+  
+}
+i:hover{
+  color:var(--title-color);
+}
+.logoo div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+.logo div:hover{
+  color:var(--title-color);
+}
