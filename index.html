@@ -3,8 +3,7 @@
 <head>
     <!-- Font et img-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
-        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
@@ -14,12 +13,12 @@
     <header class="header">
         <nav class="nav container">
             <div class="nav__data">
-                <a href="#" class="nav__logo">
-                    Portfolio de Romain 
+                <a href="#" class="nav__logo" id="nav-logo">
+                    Portfolio de Romain                   
                 </a>
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line nav__toggle-menu"></i>
-                    <i class="ri-close-fill nav__toggle-close"></i>
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-xmark nav__toggle-close"></i>
                 </div>
             </div>
             <!--Nav menu-->
@@ -39,7 +38,6 @@
                     </li>
                 </ul>
             </div>
-            
         </nav>
     </header>
     <div>
@@ -48,17 +46,17 @@
         <h2 class="gazo s">sur</h2>
         <h2 class="gazo m">mon</h2>
         <h1 class="gazo p"><em>portfolio</em></h1>
-        
+    <section class="y"id="presentation"></section>
     <main>
-        <section id="presentation">
-        <div class="couper" >
-            <div class="gauche">
+       
+        
+        <div class="container_grid_en_deux">
+            <div class="apres">
                 <h1 id="presentation">Romain Wagner</h1>
                 <h2>Etudiant en BUT Informatique</h2>
-                <br><p>
-                    Actuellement en deuxième année de BUT Informatique à l'université Sorbonne Paris Nord, <strong>je recherche un stage dans le développement back-end</strong>
+                <p>
+                    Actuellement en deuxième année de BUT Informatique à l'université Sorbonne Paris Nord, <strong>je recherche un stage dans le développement</strong>
                     <br><br>
-              
                 </p>
                 <p>
                 Ce portfolio vous offre un aperçu de mes compétences, de ma formation et de mes réalisations.
@@ -67,56 +65,49 @@
                 Mon objectif est de débuter ma carrière avec détermination, 
                 et je vous invite à explorer ce portfolio pour en savoir plus.
                 </p>
-<br><br><br>
+
                 <p> <a href="https://cvdesignr.com/p/6523d0ac5d930">Voir mon CV</a> </p>
                 <p><a href="https://www.linkedin.com/in/romain-wagner-149b48251">Retrouvez moi sur LinkedIn</a> et le mettre aussi dans le footer avec un logo</p>
             </div>
-            <div class="droite">
+            <div class="droite avant">
                 <img  class='imgd'src="img/IMG-20230928-WA0005.jpg" alt="moi">
             </div>
-        
-        
     </div>
-</section>
-    <br><br>
-    <hr><br><br>
-    <section id="competences">
-    <div class="formation" >
-        <h1>Mes compétences</h1>
-            <p>
-            Durant ma formation j'ai pu acquérir des compétences solides dans différents langages:
-            </p>
-            <div class="centre">
-               
-                    <div>HTML</div>
-                    <div>CSS</div>
-                    <div>JavaScript</div>
-                    <div>PHP</div>
-                    <div>Python</div>
-                    <div>Java</div>
-                    <div>C</div>
-                    <div>SQL</div>
-                
-            
-            
-           </div>
-           
-       
     
-    </div>
-</section>
-    <br><hr><br>
-    <section id="projets">
-    <div class="projets" id="projets">
-        <h1>Mes projets</h1>
-        <p>Voici un aperçu de quelques projets disponible sur mon <a href="https://github.com/romainwgr"><strong>github</strong></a> : </p>
+    <section class="espace" id="competences"></section>
+    <hr>
+    <div class="formation container" >
+        <p> <h1>Mes compétences</h1>
             
-        <br>
-        <div class="projetts">
+            Durant ma formation j'ai pu acquérir des compétences solides dans différents langages :
+            </p>
+    </div>
+            <div class="en_quatre aaaa">
+               
+                    <div class="a">HTML</div>
+                    <div class="a">CSS</div>
+                    <div class="a">JavaScript</div>
+                    <div class="a">PHP</div>
+              
+                    <div class="a">Python</div>
+                    <div class="a">Java</div>
+                    <div class="a">C</div>
+                    <div class="a">SQL</div>
+                   
+           </div>
+    
+           
+    <section class="espace"id="projets"></section><hr>
+    
+    <div class="container" id="projets">
+        <p><h1>Mes projets</h1>
+        Voici un aperçu de quelques projets disponible sur mon <a href="https://github.com/romainwgr"><strong>github</strong></a> : </p>
+        
+    </div>
+        <div class="container_grid_en_deux grid_modif projetts ">
             <div>
                 <a href="https://github.com/romainwgr/IMC">
                 <h4> Calculateur d'IMC en JS
-
                 </h4>
                 <img src="img/imc.png" alt="img"></a>
             </div> <!-- Mettre les classes et chaque projet -->
@@ -135,31 +126,27 @@
                 <h4> Générateur mdp en PHP</h4>
                 <img src="img/mdp.png" alt="img"></a>
             </div>
-
         </div>
-    </div>
-</section>
+    
 
-    <br><hr><br>
-    <section id="contact">
-        <div class="contact" >
-            <div class="alignement">
-                <div class="izquierda">
-                    <h1 >Me contacter</h1>
+    <section class="espace" id="contact"></section><hr>
+    
+            <div class="container_grid_en_deux">
+                <div class="apres">
+                    <h1>Me contacter</h1>
                     <form action="https://formspree.io/f/mpzgblok" method="post">
                         <div class="centrage">
                             <div><input type="email" placeholder="Votre email..."></div>
                             <div><input type="text" placeholder="Votre nom..." ></div>
                         </div>
-                        <div class="acot">
-                            <textarea cols="58" rows="10" placeholder="Votre message ..."></textarea>
-                            
-                            <input type="button" value="Envoyer" class="envoyer">
+                        <div class="acot ">
+                            <textarea cols="44" rows="10" placeholder="Votre message ..."></textarea>  
+                            <div><input type="button" value="Envoyer" class="envoyer"></div>
                         </div>
                 </div>
-                <div class="derecha">
+                <div >
                     <h1>Informations sur moi</h1>
-                    <div class="logoo">
+                    <div class="avant">
                         <div class="mail">
                             <i class="fa-solid fa-envelope fa-xl"></i>
                             <p>romain.wgr9@gmail.com</p>
@@ -188,17 +175,11 @@
                         </div>
                     </div>
                 </div> 
-                
-            </div>
-            
-            
-           
         </div>
-    </section>
+    
     </main>
 </div>
-    <script src="portfolio.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
 
